@@ -1,0 +1,53 @@
+================================================================================
+RELATÓRIO DE RISCO FUZZYFAJUTO - 22/05/2025 15:51:07
+================================================================================
+
+1. PARÂMETROS DO MODELO
+--------------------------------------------------
+Exposição financeira total: R$ 100000.00
+Máximo de posições por lado: 15
+Dias de histórico utilizados: 60
+
+2. RESUMO DE POSIÇÕES
+--------------------------------------------------
+Número de posições de compra: 11
+Número de posições de venda: 6
+Exposição total de compra: R$ 19232.00
+Exposição total de venda: R$ 12619.00
+Exposição líquida (net): R$ 6613.00
+Uso do orçamento de compra: 38.46%
+Uso do orçamento de venda: 25.24%
+
+3. POSIÇÕES DE COMPRA
+--------------------------------------------------
+Ativo    Preço      Quantidade   Exposição (R$)  % do Total   Score     
+--------------------------------------------------------------------------------
+CVCB3    R$ 2.35    1200         R$ 2820.00      2.82  %      2.00      
+HBSA3    R$ 3.08    800          R$ 2464.00      2.46  %      2.00      
+PETZ3    R$ 4.44    500          R$ 2220.00      2.22  %      2.00      
+DXCO3    R$ 5.50    400          R$ 2200.00      2.20  %      2.00      
+SIMH3    R$ 4.93    400          R$ 1972.00      1.97  %      2.00      
+CSAN3    R$ 7.99    200          R$ 1598.00      1.60  %      2.00      
+GMAT3    R$ 7.84    200          R$ 1568.00      1.57  %      2.00      
+POMO4    R$ 7.07    200          R$ 1414.00      1.41  %      2.00      
+NTCO3    R$ 10.55   100          R$ 1055.00      1.06  %      2.00      
+MGLU3    R$ 9.70    100          R$ 970.00      0.97  %      2.00      
+AURE3    R$ 9.51    100          R$ 951.00      0.95  %      2.00      
+
+4. POSIÇÕES DE VENDA
+--------------------------------------------------
+Ativo    Preço      Quantidade   Exposição (R$)  % do Total   Score     
+--------------------------------------------------------------------------------
+VALE3    R$ 54.35   50           R$ 2717.50      2.72  %      -2.00     
+USIM5    R$ 5.30    500          R$ 2650.00      2.65  %      -2.00     
+ONCO3    R$ 4.87    500          R$ 2435.00      2.43  %      -2.00     
+EMBR3    R$ 66.85   30           R$ 2005.50      2.01  %      -2.00     
+CSNA3    R$ 8.90    200          R$ 1780.00      1.78  %      -2.00     
+BRKM5    R$ 10.31   100          R$ 1031.00      1.03  %      -2.00     
+
+5. ANÁLISE DE RISCO
+--------------------------------------------------
+Maior posição de compra: CVCB3 - R$ 2820.00 (2.82% do orçamento)
+Maior posição de venda: VALE3 - R$ 2717.50 (2.72% do orçamento)
+Índice de concentração HHI compra: 1017.95/10000 (menor é melhor)
+Índice de concentração HHI venda: 1795.41/10000 (menor é melhor)

@@ -1,0 +1,54 @@
+================================================================================
+RELATÓRIO DE RISCO FUZZYFAJUTO - 22/05/2025 17:39:17
+================================================================================
+
+1. PARÂMETROS DO MODELO
+--------------------------------------------------
+Exposição financeira total: R$ 100000.00
+Máximo de posições por lado: 15
+Dias de histórico utilizados: 60
+
+2. RESUMO DE POSIÇÕES
+--------------------------------------------------
+Número de posições de compra: 9
+Número de posições de venda: 9
+Exposição total de compra: R$ 15528.00
+Exposição total de venda: R$ 17135.00
+Exposição líquida (net): R$ -1607.00
+Uso do orçamento de compra: 31.06%
+Uso do orçamento de venda: 34.27%
+
+3. POSIÇÕES DE COMPRA
+--------------------------------------------------
+Ativo    Preço      Quantidade   Exposição (R$)  % do Total   Score     
+--------------------------------------------------------------------------------
+HBSA3    R$ 3.01    900          R$ 2709.00      2.71  %      2.00      
+LWSA3    R$ 3.85    600          R$ 2310.00      2.31  %      2.00      
+PETZ3    R$ 4.42    500          R$ 2210.00      2.21  %      2.00      
+DXCO3    R$ 5.47    400          R$ 2188.00      2.19  %      2.00      
+GMAT3    R$ 7.78    200          R$ 1556.00      1.56  %      2.00      
+CSAN3    R$ 7.74    200          R$ 1548.00      1.55  %      2.00      
+NTCO3    R$ 10.36   100          R$ 1036.00      1.04  %      2.00      
+ASAI3    R$ 10.24   100          R$ 1024.00      1.02  %      2.00      
+MGLU3    R$ 9.47    100          R$ 947.00      0.95  %      2.00      
+
+4. POSIÇÕES DE VENDA
+--------------------------------------------------
+Ativo    Preço      Quantidade   Exposição (R$)  % do Total   Score     
+--------------------------------------------------------------------------------
+PCAR3    R$ 3.00    900          R$ 2700.00      2.70  %      -2.00     
+ONCO3    R$ 4.76    500          R$ 2380.00      2.38  %      -2.00     
+VAMO3    R$ 4.25    500          R$ 2125.00      2.12  %      -2.00     
+GRND3    R$ 5.25    400          R$ 2100.00      2.10  %      -2.00     
+USIM5    R$ 5.24    400          R$ 2096.00      2.10  %      -2.00     
+MRVE3    R$ 5.05    400          R$ 2020.00      2.02  %      -2.00     
+ECOR3    R$ 6.06    300          R$ 1818.00      1.82  %      -2.00     
+BRKM5    R$ 10.16   100          R$ 1016.00      1.02  %      -2.00     
+CSNA3    R$ 8.80    100          R$ 880.00      0.88  %      -2.00     
+
+5. ANÁLISE DE RISCO
+--------------------------------------------------
+Maior posição de compra: HBSA3 - R$ 2709.00 (2.71% do orçamento)
+Maior posição de venda: PCAR3 - R$ 2700.00 (2.70% do orçamento)
+Índice de concentração HHI compra: 1251.76/10000 (menor é melhor)
+Índice de concentração HHI venda: 1207.92/10000 (menor é melhor)

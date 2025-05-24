@@ -1,0 +1,42 @@
+{
+    "model": {
+        "lookback_days": 60,
+        "use_ibra_components": true,
+        "max_position_per_side": 15,
+        "exposicao_financeira_total": 100000.0
+    },
+    "market": {
+        "ibov_symbol": "^BVSP",
+        "num_ibra_stocks": 100,
+        "auto_update_assets": true,
+        "update_interval_hours": 24
+    },
+    "indicators": {
+        "ema_periods": [
+            3,
+            5,
+            10,
+            15,
+            20
+        ],
+        "rsi_period": 10,
+        "overbought_threshold": 70,
+        "oversold_threshold": 30
+    },
+    "execution": {
+        "price_increments": [
+            0.005,
+            0.01,
+            0.015
+        ],
+        "include_market_orders": true,
+        "include_limit_orders": true
+    },
+    "backtest": {
+        "default_period_days": 365,
+        "commission_rate": 0.001,
+        "plot_results": true,
+        "save_results": true,
+        "rebalance_frequency": 1
+    }
+}

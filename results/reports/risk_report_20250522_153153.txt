@@ -1,0 +1,51 @@
+================================================================================
+RELATÓRIO DE RISCO FUZZYFAJUTO - 22/05/2025 15:31:53
+================================================================================
+
+1. PARÂMETROS DO MODELO
+--------------------------------------------------
+Exposição financeira total: R$ 100000.00
+Máximo de posições por lado: 15
+Dias de histórico utilizados: 60
+
+2. RESUMO DE POSIÇÕES
+--------------------------------------------------
+Número de posições de compra: 10
+Número de posições de venda: 5
+Exposição total de compra: R$ 22912.00
+Exposição total de venda: R$ 16610.20
+Exposição líquida (net): R$ 6301.80
+Uso do orçamento de compra: 45.82%
+Uso do orçamento de venda: 33.22%
+
+3. POSIÇÕES DE COMPRA
+--------------------------------------------------
+Ativo    Preço      Quantidade   Exposição (R$)  % do Total   Score     
+--------------------------------------------------------------------------------
+RAIZ4    R$ 1.95    1500         R$ 2925.00      2.93  %      2.00      
+CVCB3    R$ 2.36    1200         R$ 2832.00      2.83  %      2.00      
+COGN3    R$ 2.94    900          R$ 2646.00      2.65  %      2.00      
+HBSA3    R$ 3.07    800          R$ 2456.00      2.46  %      2.00      
+ANIM3    R$ 4.06    600          R$ 2436.00      2.44  %      2.00      
+PETZ3    R$ 4.43    500          R$ 2215.00      2.21  %      2.00      
+DXCO3    R$ 5.51    400          R$ 2204.00      2.20  %      2.00      
+JHSF3    R$ 5.08    400          R$ 2032.00      2.03  %      2.00      
+CSAN3    R$ 8.00    200          R$ 1600.00      1.60  %      2.00      
+GMAT3    R$ 7.83    200          R$ 1566.00      1.57  %      2.00      
+
+4. POSIÇÕES DE VENDA
+--------------------------------------------------
+Ativo    Preço      Quantidade   Exposição (R$)  % do Total   Score     
+--------------------------------------------------------------------------------
+MLAS3    R$ 1.03    4000         R$ 4120.00      4.12  %      -2.00     
+VALE3    R$ 54.46   70           R$ 3812.20      3.81  %      -2.00     
+USIM5    R$ 5.31    700          R$ 3717.00      3.72  %      -2.00     
+EMBR3    R$ 66.72   50           R$ 3336.00      3.34  %      -2.00     
+BRAP4    R$ 16.25   100          R$ 1625.00      1.62  %      -2.00     
+
+5. ANÁLISE DE RISCO
+--------------------------------------------------
+Maior posição de compra: RAIZ4 - R$ 2925.00 (2.93% do orçamento)
+Maior posição de venda: MLAS3 - R$ 4120.00 (4.12% do orçamento)
+Índice de concentração HHI compra: 1037.19/10000 (menor é melhor)
+Índice de concentração HHI venda: 2141.83/10000 (menor é melhor)
