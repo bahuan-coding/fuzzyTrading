@@ -349,7 +349,7 @@ def export_to_tryd_automate(orders: List[Dict[str, object]], output: str = 'auto
     for o in orders:
         if o['side'] == 'BUY':
             row = [
-                o['symbol'], client_code, 'DIA', o['qty'], o['qty'], o['qty'],
+                o['symbol'], client_code, 'Falso', o['qty'], o['qty'], o['qty'],
                 float(o['price']),
                 None, None, None, None,
                 None,
@@ -360,7 +360,7 @@ def export_to_tryd_automate(orders: List[Dict[str, object]], output: str = 'auto
                 o['symbol'], client_code, None, None, None, None,
                 None,
                 float(o['price']), o['qty'], o['qty'], o['qty'],
-                'DIA',
+                'Falso',
                 f"{today} - FuzzyFajuto SELL score={o['score']:.2f}",
             ]
         ws.append(row)
